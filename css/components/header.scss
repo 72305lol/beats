@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+}
+.menu__item{
+    margin-right: 18px;
+     
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.menu__link{
+    text-decoration: none; 
+}
+
+.phone-number{
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-right: 132px;
+}
+.pnone-number__text{
+    font-family: "play";
+    text-decoration: none;
+}
+.phone-number__icon-elem{
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
