@@ -1,0 +1,37 @@
+.btn{
+    font-size: rem(16px);
+    font-weight: bold;
+    padding: rem(24px) rem(48px);
+    text-transform: uppercase;
+    border-radius: rem(100px);
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+
+    &--theme--white{
+        background: #E01F3D;
+        color: #fff;
+    }
+
+
+
+    &:hover{
+        background: #CA1B36;
+    }
+
+    &--theme--transparent{
+        background: transparent;
+        color: #fff;
+        text-transform: none;
+
+        &:hover{
+            background: transparent;
+            color: #E01F3D;
+        }
+    }
+}
+.form__btns{
+    margin-top: rem(46px);
+}
