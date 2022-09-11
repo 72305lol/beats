@@ -1,0 +1,93 @@
+html{
+    font-size: $baseFontSize;
+
+    @include tablets {
+        font-size: $baseFontSize - 1px;
+    }
+    @include phones {
+        font-size: $baseFontSize - 2px;
+    }
+}
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    font-family:  "Play";
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    color: #666666;
+}
+.wrapper{
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 95%;
+    height: 100%;
+    max-width: $containerWidth;
+    margin: 0 auto;
+
+    &--products{
+        display: flex;
+        align-items: center;
+
+        // @include tablets{
+        //     flex-direction: column;
+        // }
+    }
+
+    &--colors{
+        background: url(./../../img/Colors.png) center right / cover no-repeat;
+        min-height: rem(652px);
+        display: flex;
+        position: relative;
+    }
+}
+
+
+
+//tag styles reset
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    font-weight: normal;
+}
+table{
+    border-collapse: collapse;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    
+    li{
+        list-style: none;
+    }
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+img{
+    display: block;
+    //min-width: 100%;
+}

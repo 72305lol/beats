@@ -1,0 +1,134 @@
+.colors{
+    &__menu{
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+
+    }
+
+    &__item{
+        display: flex;
+
+        &-content{
+            overflow: hidden;
+            width: 0;
+            background: #333537;
+            opacity: 90%;
+            transition: 0.5s;
+        }
+
+        &-text{
+            padding: rem(31px) rem(53px) rem(31px) rem(38px);
+            font-size: rem(16px);
+        }
+
+        &-title{
+            text-decoration: none;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            width: rem(102px);
+            
+            &--text{
+            text-decoration: none;
+            font-size: rem(36px);
+            rotate: (180deg);
+            writing-mode: vertical-lr;
+            text-align: end;
+            margin-bottom: rem(34px);
+            }
+
+            &--silver{
+                background: #999;
+            }
+
+            &--black{
+                background: #151515;
+            }
+
+            &--red{
+                background: #E01F3C;
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .colors{
+
+
+//     &__menu{
+//         display: flex;
+//     }
+
+//     &__item{
+//         display: flex;
+//        // width: rem(624px);
+
+
+//         &-title{
+//             display: flex;
+//             align-items: flex-end;
+//             width: rem(102px);
+//             flex: 0 0 16%;
+//             justify-content: center;
+            
+//             &-silver{
+//                 background: #999;
+//             }
+
+//             &-black{
+//                 background: #151515;
+//             }
+
+//             &-red{
+//                 background: #E01F3C;
+//             }
+
+
+//             &-text{
+//                 text-decoration: none;
+//                 font-size: rem(36px);
+//                 rotate: (180deg);
+//                 writing-mode: vertical-lr;
+//                 text-align: end;
+//                 margin-bottom: rem(34px);
+//             }
+//         }
+
+//         &-content{
+//             background: #333537;
+//             opacity: 90%;
+//         }
+
+//         &-text{
+//             margin: rem(31px) rem(53px) rem(31px) rem(38px);
+//             font-size: rem(16px);
+//         }
+
+//     }
+// }
